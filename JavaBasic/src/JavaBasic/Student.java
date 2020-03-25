@@ -21,7 +21,7 @@ public class Student {
     }
 
     public String getInfo(){
-        return name+","+id+","+address;
+        return name+","+id+","+address+" ,"+phone;
     }
     public void Display(){
         System.out.println(name);
